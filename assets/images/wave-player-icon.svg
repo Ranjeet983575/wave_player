@@ -1,0 +1,29 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="120" y1="100" x2="910" y2="940" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171323"/>
+      <stop offset="0.52" stop-color="#0D1018"/>
+      <stop offset="1" stop-color="#080B10"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="200" y1="390" x2="820" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A879FF"/>
+      <stop offset="0.52" stop-color="#8F9BFF"/>
+      <stop offset="1" stop-color="#6CE8DD"/>
+    </linearGradient>
+    <linearGradient id="play" x1="438" y1="375" x2="638" y2="649" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4B5FF"/>
+      <stop offset="1" stop-color="#71F0E2"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(350 310) rotate(44) scale(600 520)">
+      <stop stop-color="#A879FF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#A879FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="224" fill="url(#background)"/>
+  <rect x="70" y="70" width="884" height="884" rx="218" stroke="#383348" stroke-width="12"/>
+  <ellipse cx="518" cy="497" rx="366" ry="332" fill="url(#glow)"/>
+  <path d="M174 570C250 570 265 451 338 451C410 451 421 574 489 574" stroke="url(#wave)" stroke-width="42" stroke-linecap="round"/>
+  <path d="M193 681C263 681 281 602 347 602C393 602 421 648 458 681" stroke="#78E9DF" stroke-opacity="0.62" stroke-width="19" stroke-linecap="round"/>
+  <path d="M530 376C542 369 557 369 569 376L753 483C777 497 777 531 753 545L569 652C543 667 510 648 510 618V410C510 396 518 383 530 376Z" fill="url(#play)"/>
+  <path d="M818 446C856 464 876 493 876 519C876 546 856 575 818 593" stroke="#71E8DE" stroke-opacity="0.6" stroke-width="18" stroke-linecap="round"/>
+</svg>
