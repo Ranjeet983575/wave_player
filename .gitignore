@@ -40,3 +40,9 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# local editor and assistant settings
+/.claude/
+/.vscode/
+/AGENTS.md
+/CLAUDE.md
